@@ -1,0 +1,16 @@
+.stepperLine {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: white;
+}
+
+.step {
+    height: 10px;
+    background-color: grey;
+    cursor: pointer;
+}
+
+.active {
+    background-color: crimson;
+}

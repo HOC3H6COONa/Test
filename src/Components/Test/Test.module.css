@@ -1,0 +1,44 @@
+.testTitle {
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0;
+}
+
+.timerBox {
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 0.5vh 2vh 0.5vh 2vh;
+    display:flex;
+}
+
+.timer {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+}
+
+.titleBox {
+    padding: 5vh 0 2vh 0;
+    display: flex;
+    gap: 4vh;
+    align-items:center;
+}
+
+.questionBlock {
+    padding: 2vh 0 2vh 0;
+}
+
+.button {
+    width: 25vh;
+    height: 5vh;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 24px;
+}
+
+.button:hover {
+    background-color: crimson;
+    transition-duration: 0.2s;
+    color: whitesmoke;
+}

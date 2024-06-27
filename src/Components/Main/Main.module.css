@@ -1,0 +1,20 @@
+.buttonBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.button {
+    width: 20%;
+    height: 5vh;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 24px;
+}
+
+.button:hover {
+    background-color: crimson;
+    transition-duration: 0.2s;
+    color: whitesmoke;
+}
